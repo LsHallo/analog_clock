@@ -6,3 +6,4 @@ This is an ideal way to learn the clock in the browser.
 
 ![Sample Image](https://i.imgur.com/i6ZUqPm.png)
 
+## Start directly at: https://lshallo.github.io/analog_clock/
