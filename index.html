@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Learn the clock!</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="css/style.css"/>
 		<meta charset="UTF-8"/>
 	</head>
@@ -16,18 +17,18 @@
 				</div>
 			</div>
 			<div class="answers">
-				<form id="answerForm">
-					<input type="radio" id="radio1" class="answer" name="answer" value=""/><span class="answerText"></span><br>
-					<input type="radio" id="radio2" class="answer" name="answer" value=""/><span class="answerText"></span><br>
-					<input type="radio" id="radio3" class="answer" name="answer" value=""/><span class="answerText"></span><br>
-					<input type="radio" id="radio4" class="answer" name="answer" value=""/><span class="answerText"></span><br>
-					<input type="submit" id="submitForm" value="Check">
-				</form>
-				<div id="result"></div>
+				<div><input type="button" id="radio1" class="answer btn btn-primary" name="answer" value=""/></div>
+				<div><input type="button" id="radio2" class="answer btn btn-primary" name="answer" value=""/></div>
+				<div><input type="button" id="radio3" class="answer btn btn-primary" name="answer" value=""/></div>
+				<div><input type="button" id="radio4" class="answer btn btn-primary" name="answer" value=""/></div>
+				<div class="indicator" id="correct" style="opacity: 0;">Your answer is correct!</div>
+				<div class="indicator" id="wrong" style="opacity: 0;">That doesn't seem right. Try again!</div>
 			</div>
 		</div>
 		<footer>
-			<script type="text/javascript" async="true" src="js/clock.js"></script>
+			<script src="js/jquery.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/clock.js"></script>
 		</footer>
 	</body>
 </html>
